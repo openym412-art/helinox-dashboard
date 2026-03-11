@@ -1,0 +1,3541 @@
+[00:00:05.245] Server  LOG     ✓ Ready in 3.8s
+[00:00:06.605] Server  ERROR   ⨯ ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:09.655] Server  LOG     ○ Compiling /_error ...
+[00:00:19.862] Server  WARN    ⚠ Cross origin request detected from [::1] to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:19.958] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:20.533] Server  ERROR   ⨯ ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:21.248] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:21.359] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.359] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.359] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.359] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.359] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.359] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.359] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.359] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.360] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.403] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.404] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.404] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.404] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.404] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.404] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.404] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.404] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.967] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.967] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.968] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.968] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.968] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.968] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.968] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:21.968] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.448] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.448] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.448] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.448] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.448] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.448] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.448] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.448] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.067] Server  ERROR   ⨯ ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.348] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.349] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.404] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:53.744] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.744] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.744] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.744] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.744] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.744] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.744] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.744] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.745] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:53.931] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:50.491] Server  ERROR   ⨯ ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:51.186] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:51.186] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:51.187] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:51.187] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:51.187] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:51.187] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:51.187] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:51.187] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:51.468] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:52.302] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:52.302] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:52.302] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:52.302] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:52.302] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:52.302] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:52.302] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:52.303] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:53.066] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:07.333] Server  ERROR   ⨯ ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.649] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:08.661] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:09.760] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:09.760] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:09.760] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:09.760] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:09.760] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:09.760] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:09.760] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:09.760] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:10.462] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:45.364] Server  ERROR   ⨯ ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:46.271] Server  WARN    ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:04:46.291] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:46.696] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.696] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.696] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.696] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.696] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.696] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.696] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.696] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.814] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.814] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.814] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.814] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.814] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.814] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.814] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:46.814] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.583] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:2:1
+Module not found: Can't resolve '@/components/ActionItems'
+  1 | import DailyBrief from '@/components/DailyBrief';
+> 2 | import ActionItems from '@/components/ActionItems';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/CompetitorNews'
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+> 5 | import CompetitorNews from '@/components/CompetitorNews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve '@/components/DailyBrief'
+> 1 | import DailyBrief from '@/components/DailyBrief';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/IndustryNews'
+   6 | import SearchTrends from '@/components/SearchTrends';
+   7 | import PlatformTrends from '@/components/PlatformTrends';
+>  8 | import IndustryNews from '@/components/IndustryNews';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/PlatformTrends'
+   5 | import CompetitorNews from '@/components/CompetitorNews';
+   6 | import SearchTrends from '@/components/SearchTrends';
+>  7 | import PlatformTrends from '@/components/PlatformTrends';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import IndustryNews from '@/components/IndustryNews';
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/ReviewSummary'
+  1 | import DailyBrief from '@/components/DailyBrief';
+  2 | import ActionItems from '@/components/ActionItems';
+> 3 | import ReviewSummary from '@/components/ReviewSummary';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/SearchTrends'
+  4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+> 6 | import SearchTrends from '@/components/SearchTrends';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+  8 | import IndustryNews from '@/components/IndustryNews';
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:48.584] Browser ERROR   ./src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/SentimentAnalysis'
+  2 | import ActionItems from '@/components/ActionItems';
+  3 | import ReviewSummary from '@/components/ReviewSummary';
+> 4 | import SentimentAnalysis from '@/components/SentimentAnalysis';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import CompetitorNews from '@/components/CompetitorNews';
+  6 | import SearchTrends from '@/components/SearchTrends';
+  7 | import PlatformTrends from '@/components/PlatformTrends';
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:17.170] Server  LOG     ✓ Compiled in 80ms
+[00:05:27.514] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:27.726] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="ko"
+-                         data-jetski-tab-id="131532930"
+                        >
+                  ...
+
+[00:05:30.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:31.210] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="ko"
+-                         data-jetski-tab-id="131532929"
+                        >
+                  ...
+
+[00:42:30.626] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

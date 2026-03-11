@@ -1,0 +1,79 @@
+:root {
+  --cyan-blue: #00e5ff;
+  --metallic-black: #0a0a0a;
+  --success-green: #22c55e;
+  --danger-red: #ef4444;
+  --warning-yellow: #eab308;
+  --neutral-gray: #f2f2f2;
+  --text-secondary: #cccccc;
+  
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Inter', 'Pretendard', system-ui, -apple-system, sans-serif;
+  background-color: var(--neutral-gray);
+  color: var(--foreground);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* UI Components */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge-risk { background-color: var(--danger-red); color: white; }
+.badge-warning { background-color: var(--warning-yellow); color: white; }
+.badge-safe { background-color: var(--success-green); color: white; }
+
+.header-dark {
+  background-color: var(--metallic-black);
+  color: white;
+  padding: 2rem 1rem;
+  border-bottom: 2px solid var(--cyan-blue);
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);
+}
+
+.cyan-glow {
+  color: var(--cyan-blue);
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.5);
+}
