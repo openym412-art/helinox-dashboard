@@ -1,4 +1,4 @@
-import { google } from 'googleapis';
+import { google, Auth } from 'googleapis';
 
 export async function getGoogleSheetsClient() {
   const auth = new google.auth.GoogleAuth({
@@ -9,7 +9,7 @@ export async function getGoogleSheetsClient() {
     scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
   });
 
-  const authClient = await auth.getClient();
+  const authClient = await auth.getClient() as Auth.OAuth2Client;
   return google.sheets({ version: 'v4', auth: authClient });
 }
 
